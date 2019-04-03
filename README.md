@@ -42,5 +42,5 @@ Učenik može vidjeti svoje ocjene, broj izostanaka i obavijesti/napomene. Rodit
 1. Administrator
 2. Nastavnik
 3. Roditelj
-4. Dijete
+4. Učenik
 
