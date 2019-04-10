@@ -30,12 +30,12 @@ Učenik može vidjeti svoje ocjene, broj izostanaka i obavijesti/napomene. Rodit
 
 ## Funkcionalnosti
 
-*Mogućnost praćenja ocjena i izostanaka
-*Mogućnost dodavanja ocjena i izostanaka
-*Mogućnost ostavljanja napomene
-*Mogućnost unosa opisa predmeta
-*Mogućnost ubacivanja profilne slike
-*Postojanje različitih aktera sa različitim privilegijama unutar sistema
+* Mogućnost praćenja ocjena i izostanaka
+* Mogućnost dodavanja ocjena i izostanaka
+* Mogućnost ostavljanja napomene
+* Mogućnost unosa opisa predmeta
+* Mogućnost ubacivanja profilne slike
+* Postojanje različitih aktera sa različitim privilegijama unutar sistema
 
 ## Akteri
 
