@@ -3,9 +3,9 @@
 ## Tema: EDnevnik
 
 ## Članovi tima: 
-1. Berin Madžak
-2. Merjem Bajraktarević
-3. Orhan Ušanović
+* Berin Madžak
+* Merjem Bajraktarević
+* Orhan Ušanović
 
 ## Opis teme
 
@@ -30,17 +30,17 @@ Učenik može vidjeti svoje ocjene, broj izostanaka i obavijesti/napomene. Rodit
 
 ## Funkcionalnosti
 
--Mogućnost praćenja ocjena i izostanaka
--Mogućnost dodavanja ocjena i izostanaka
--Mogućnost ostavljanja napomene
--Mogućnost unosa opisa predmeta
--Mogućnost ubacivanja profilne slike
--Postojanje različitih aktera sa različitim privilegijama unutar sistema
+*Mogućnost praćenja ocjena i izostanaka
+*Mogućnost dodavanja ocjena i izostanaka
+*Mogućnost ostavljanja napomene
+*Mogućnost unosa opisa predmeta
+*Mogućnost ubacivanja profilne slike
+*Postojanje različitih aktera sa različitim privilegijama unutar sistema
 
 ## Akteri
 
-1. Administrator
-2. Nastavnik
-3. Roditelj
-4. Učenik
+* Administrator
+* Nastavnik
+* Roditelj
+* Učenik
 
