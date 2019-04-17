@@ -17,7 +17,7 @@ U modernom vremenu u kojem živimo, navikli smo da nam je sve što nam je potreb
 Administrator kreira račune za sve nastavnike, učenike i roditelje, dodjeljuje im username, password i određene uloge (koje sa sobom nose ograničenja). Administrator je zadužen da nastavnicima da ovlaštenje razrednika, ukoliko nastavnik to jeste.
 
 #### Unos predmeta
-Administrator kreira predmet i daje odgovarajućem nastavniku ovlaštenje da dalje mijenja opis i dalje uređuje predmet.
+Administrator kreira predmet i unosi podatke o njemu.
 
 #### Unos ocjena i izostanaka
 Nastavnik ima pravo da unosi ocjene i izostanke učeniku. Ukoliko roditelj u roku od tri dana opravda izostanak, nastavnik potvrđuje da je izostanak opravdan, u suprotnom izostanak automatski postaje neopravdan.
