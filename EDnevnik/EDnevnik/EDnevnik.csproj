@@ -11,6 +11,11 @@
     <Compile Remove="Migrations\20190618122353_Test.Designer.cs" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Include="wwwroot\Slike\default-user-image.png" />
+    <None Include="wwwroot\Slike\thumbnail.jpg" />
+  </ItemGroup>
+
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.App" />

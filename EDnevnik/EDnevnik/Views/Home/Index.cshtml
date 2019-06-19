@@ -2,7 +2,53 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<head>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+    <title>E-Dnevnik</title>
+    <style type="text/css">
+        .auto-style1 {
+            text-align: center;
+            background: #001C47;
+        }
+
+        .auto-style4 {
+            text-align: center;
+            background: #001C47;
+            color: #FF410D;
+        }
+
+        .auto-style5 {
+            text-align: center;
+            background: #001C47;
+            color: #FFFFFF;
+        }
+
+        .auto-style6 {
+            color: #FFFFFF;
+        }
+    </style>
+</head>
+
+<body bgcolor="#001C47">
+    <div class="auto-style1">
+
+        <br />
+        <br />
+
+        &nbsp;<br />
+        <br />
+        <h1 class="auto-style5">
+            <img alt="" height="128" src="~/Slike/thumbnail.jpg" width="150" />
+        </h1>
+        <h1 class="auto-style5"> E-Dnevnik </h1>
+        <p class="auto-style5">  Username: </p> <input name="username" type="text" id="username"/>
+        <p class="auto-style4"> <span class="auto-style6">Password:</span> </p> <input name="password" type="password" />
+        <br />
+        <br />
+        <br />
+        <input name="prijava" type="button" value="Prijava" />
+        <br />
+
+    </div>
+
+</body>

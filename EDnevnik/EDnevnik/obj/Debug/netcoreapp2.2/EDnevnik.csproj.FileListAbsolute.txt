@@ -84,7 +84,6 @@ C:\Users\KORISNIK\Grupa7-EDnevnik\EDnevnik\EDnevnik\obj\Debug\netcoreapp2.2\EDne
 C:\Users\KORISNIK\Grupa7-EDnevnik\EDnevnik\EDnevnik\obj\Debug\netcoreapp2.2\EDnevnik.TagHelpers.input.cache
 C:\Users\KORISNIK\Grupa7-EDnevnik\EDnevnik\EDnevnik\obj\Debug\netcoreapp2.2\EDnevnik.TagHelpers.output.cache
 C:\Users\KORISNIK\Grupa7-EDnevnik\EDnevnik\EDnevnik\obj\Debug\netcoreapp2.2\EDnevnik.RazorCoreGenerate.cache
-C:\Users\KORISNIK\Grupa7-EDnevnik\EDnevnik\EDnevnik\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.g.cshtml.cs
 C:\Users\KORISNIK\Grupa7-EDnevnik\EDnevnik\EDnevnik\obj\Debug\netcoreapp2.2\Razor\Views\Home\Privacy.g.cshtml.cs
 C:\Users\KORISNIK\Grupa7-EDnevnik\EDnevnik\EDnevnik\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Error.g.cshtml.cs
 C:\Users\KORISNIK\Grupa7-EDnevnik\EDnevnik\EDnevnik\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
@@ -138,3 +137,9 @@ C:\Users\KORISNIK\Grupa7-EDnevnik\EDnevnik\EDnevnik\obj\Debug\netcoreapp2.2\Razo
 C:\Users\KORISNIK\Grupa7-EDnevnik\EDnevnik\EDnevnik\obj\Debug\netcoreapp2.2\Razor\Views\Ucenik\Details.g.cshtml.cs
 C:\Users\KORISNIK\Grupa7-EDnevnik\EDnevnik\EDnevnik\obj\Debug\netcoreapp2.2\Razor\Views\Ucenik\Edit.g.cshtml.cs
 C:\Users\KORISNIK\Grupa7-EDnevnik\EDnevnik\EDnevnik\obj\Debug\netcoreapp2.2\Razor\Views\Ucenik\Index.g.cshtml.cs
+C:\Users\KORISNIK\Grupa7-EDnevnik\EDnevnik\EDnevnik\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index2.g.cshtml.cs
+C:\Users\KORISNIK\Grupa7-EDnevnik\EDnevnik\EDnevnik\obj\Debug\netcoreapp2.2\Razor\Views\Roditelj\Create.g.cshtml.cs
+C:\Users\KORISNIK\Grupa7-EDnevnik\EDnevnik\EDnevnik\obj\Debug\netcoreapp2.2\Razor\Views\Roditelj\Delete.g.cshtml.cs
+C:\Users\KORISNIK\Grupa7-EDnevnik\EDnevnik\EDnevnik\obj\Debug\netcoreapp2.2\Razor\Views\Roditelj\Details.g.cshtml.cs
+C:\Users\KORISNIK\Grupa7-EDnevnik\EDnevnik\EDnevnik\obj\Debug\netcoreapp2.2\Razor\Views\Roditelj\Edit.g.cshtml.cs
+C:\Users\KORISNIK\Grupa7-EDnevnik\EDnevnik\EDnevnik\obj\Debug\netcoreapp2.2\Razor\Views\Roditelj\Index.g.cshtml.cs

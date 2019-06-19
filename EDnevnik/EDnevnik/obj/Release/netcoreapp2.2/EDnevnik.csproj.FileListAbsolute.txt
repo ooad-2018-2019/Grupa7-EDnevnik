@@ -94,7 +94,6 @@ C:\Users\KORISNIK\Grupa7-EDnevnik\EDnevnik\EDnevnik\obj\Release\netcoreapp2.2\Ra
 C:\Users\KORISNIK\Grupa7-EDnevnik\EDnevnik\EDnevnik\obj\Release\netcoreapp2.2\Razor\Views\Administrator\Details.g.cshtml.cs
 C:\Users\KORISNIK\Grupa7-EDnevnik\EDnevnik\EDnevnik\obj\Release\netcoreapp2.2\Razor\Views\Administrator\Edit.g.cshtml.cs
 C:\Users\KORISNIK\Grupa7-EDnevnik\EDnevnik\EDnevnik\obj\Release\netcoreapp2.2\Razor\Views\Administrator\Index.g.cshtml.cs
-C:\Users\KORISNIK\Grupa7-EDnevnik\EDnevnik\EDnevnik\obj\Release\netcoreapp2.2\Razor\Views\Home\Index.g.cshtml.cs
 C:\Users\KORISNIK\Grupa7-EDnevnik\EDnevnik\EDnevnik\obj\Release\netcoreapp2.2\Razor\Views\Home\Privacy.g.cshtml.cs
 C:\Users\KORISNIK\Grupa7-EDnevnik\EDnevnik\EDnevnik\obj\Release\netcoreapp2.2\Razor\Views\Izostanak\Create.g.cshtml.cs
 C:\Users\KORISNIK\Grupa7-EDnevnik\EDnevnik\EDnevnik\obj\Release\netcoreapp2.2\Razor\Views\Izostanak\Delete.g.cshtml.cs
@@ -148,3 +147,6 @@ C:\Users\KORISNIK\Grupa7-EDnevnik\EDnevnik\EDnevnik\obj\Release\netcoreapp2.2\ED
 C:\Users\KORISNIK\Grupa7-EDnevnik\EDnevnik\EDnevnik\obj\Release\netcoreapp2.2\EDnevnik.dll
 C:\Users\KORISNIK\Grupa7-EDnevnik\EDnevnik\EDnevnik\obj\Release\netcoreapp2.2\EDnevnik.pdb
 C:\Users\KORISNIK\Grupa7-EDnevnik\EDnevnik\EDnevnik\obj\Release\netcoreapp2.2\EDnevnik.csproj.CopyComplete
+C:\Users\KORISNIK\Grupa7-EDnevnik\EDnevnik\EDnevnik\obj\Release\netcoreapp2.2\Razor\Views\Home\Index.g.cshtml.cs
+C:\Users\KORISNIK\Grupa7-EDnevnik\EDnevnik\EDnevnik\obj\Release\netcoreapp2.2\Razor\Views\Home\Prijava.g.cshtml.cs
+C:\Users\KORISNIK\Grupa7-EDnevnik\EDnevnik\EDnevnik\obj\Release\netcoreapp2.2\Razor\Views\Predmet\Create1.g.cshtml.cs
