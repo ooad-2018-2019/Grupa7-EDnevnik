@@ -1,0 +1,107 @@
+﻿<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Nastavnik Notifikacije</title>
+    <style typye = "text/css">
+    html, body{
+        background: #001C47;
+        margin: 0;
+        padding: 0;
+    }
+    .glavniDivHeadera{
+        display:flex;
+    }
+    .slikaDiv{
+        width:8%;
+        margin-top:2%;
+        margin-left:2%;
+    }
+    .textHeaderDiv{
+        width:80%;
+        text-align: center;
+    }
+    .middleNavbar{
+        display: flex;
+        flex-direction: row-reverse;
+        margin-right:2%;
+    }
+ 
+    .glavniDivBody{
+        background:#55AA00;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left:2%;
+        margin-right:2%;
+    }
+    .auto-style1 {
+        color: black;
+    }
+    .auto-style2{
+        color:white;
+    }
+    </style>
+</head>
+<body>
+    <div class="glavniDivHeadera">
+        <div class="slikaDiv">
+            <img src="../Slike/default-user-image.png" alt="Smiley face" height="154" width="152">
+        </div>
+        <div class="textHeaderDiv">
+            <div>
+                <h1 class="auto-style2">Dobrodošli!</h1>
+            </div>
+            <div>
+                <p id="nazivPredmetaId" class="auto-style2">Naziv Predmeta</p>
+                <p class="auto-style1">
+                <select id="selectBar1" name="D1">
+                    <option value="0">Izaberi razred:</option>
+                    <option value="1">Test razred</option>
+                    <option value="1">Dohvati id pa dinamicki postavi opcije</option>
+                </select></p>
+            </div>
+            <div class="custom-select" style="width:200px;">
+                &nbsp;</div>
+        </div>
+        <div>
+            <button style="background: #ff9966"><label style="color:white">Odjavi se</label></button>
+        </div>
+    </div>
+ 
+    <div class="middleNavbar">
+        <button>Notifikacije</button>
+        <button>Ocjene</button>
+        <button>Predmet</button>
+    </div>
+ 
+    <div class="glavniDivBody">
+        <div style="background: white; width:50%; margin-top: 30px; margin-bottom: 30px;">
+            <br>
+            <form id="idForme" method="post">
+                <input name="Checkbox1" type="checkbox">
+                <span class="auto-style1">Ucenik 1</span><br class="auto-style1">
+                <input name="Checkbox2" type="checkbox">
+                <span class="auto-style1">Ucenik 2</span><br class="auto-style1">
+                <input name="Checkbox2" type="checkbox">
+                <span class="auto-style1">Ucenik 2</span><br class="auto-style1">
+                <input name="Checkbox2" type="checkbox">
+                <span class="auto-style1">Ucenik 2</span><br class="auto-style1">
+                <input name="Checkbox2" type="checkbox">
+                <span class="auto-style1">Ucenik 2</span><br class="auto-style1">
+                <input name="Checkbox2" type="checkbox">
+                <span class="auto-style1">Ucenik 2</span><br class="auto-style1">
+                <input name="Checkbox2" type="checkbox">
+                <span class="auto-style1">Ucenik 2</span><br class="auto-style1">
+                <input name="Checkbox2" type="checkbox">
+                <span class="auto-style1">Ucenik 2</span><br class="auto-style1">
+                <input name="Checkbox2" type="checkbox">
+                <span class="auto-style1">Ucenik 2</span><br class="auto-style1">
+               
+            </form>
+        </div>
+    </div>
+</body>
+</html>
