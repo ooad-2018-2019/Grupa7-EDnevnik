@@ -12968,11 +12968,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\KORISNIK\\source\\repos\\EDnevnik\\EDnevnik\\EDnevnik.csproj",
+      "projectUniqueName": "C:\\Users\\KORISNIK\\Grupa7-EDnevnik\\EDnevnik\\EDnevnik\\EDnevnik.csproj",
       "projectName": "EDnevnik",
-      "projectPath": "C:\\Users\\KORISNIK\\source\\repos\\EDnevnik\\EDnevnik\\EDnevnik.csproj",
+      "projectPath": "C:\\Users\\KORISNIK\\Grupa7-EDnevnik\\EDnevnik\\EDnevnik\\EDnevnik.csproj",
       "packagesPath": "C:\\Users\\KORISNIK\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\KORISNIK\\source\\repos\\EDnevnik\\EDnevnik\\obj\\",
+      "outputPath": "C:\\Users\\KORISNIK\\Grupa7-EDnevnik\\EDnevnik\\EDnevnik\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

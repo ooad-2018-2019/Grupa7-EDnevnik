@@ -192,16 +192,12 @@ namespace EDnevnik.Migrations
                 {
                     b.HasBaseType("EDnevnik.Models.Korisnik");
 
-                    b.ToTable("Nastavnik");
-
                     b.HasDiscriminator().HasValue("Nastavnik");
                 });
 
             modelBuilder.Entity("EDnevnik.Models.Roditelj", b =>
                 {
                     b.HasBaseType("EDnevnik.Models.Korisnik");
-
-                    b.ToTable("Roditelj");
 
                     b.HasDiscriminator().HasValue("Roditelj");
                 });
@@ -217,8 +213,6 @@ namespace EDnevnik.Migrations
                     b.HasIndex("RazredId");
 
                     b.HasIndex("RoditeljId");
-
-                    b.ToTable("Ucenik");
 
                     b.HasDiscriminator().HasValue("Ucenik");
                 });

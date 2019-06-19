@@ -7,6 +7,8 @@ namespace EDnevnik.Models
 {
     public abstract class Korisnik
     {
+        public string ImePrezime { get { return string.Format("{0} {1}", Ime, Prezime); } }
+
         protected Korisnik(int korisnikId, string ime, string prezime, string username, string password, DateTime datumRodjenja, string jMBG)
         {
             KorisnikId = korisnikId;
@@ -26,5 +28,11 @@ namespace EDnevnik.Models
         public DateTime DatumRodjenja { get; set; }
         public String JMBG { get; set; }
         public int PravoPristupa { get; set; }
+
+        public Korisnik()
+        {
+
+        }
     }
+
 }

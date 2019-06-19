@@ -48,7 +48,7 @@ namespace EDnevnik.Controllers
         // GET: Predmet/Create
         public IActionResult Create()
         {
-            ViewData["NastavnikId"] = new SelectList(_context.Nastavnik, "KorisnikId", "KorisnikId");
+            ViewData["NastavnikId"] = new SelectList(_context.Nastavnik, "KorisnikId", "ImePrezime");
             return View();
         }
 
@@ -65,7 +65,7 @@ namespace EDnevnik.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["NastavnikId"] = new SelectList(_context.Nastavnik, "KorisnikId", "KorisnikId", predmet.NastavnikId);
+            ViewData["NastavnikId"] = new SelectList(_context.Nastavnik, "KorisnikId", "ImePrezime", predmet.NastavnikId);
             return View(predmet);
         }
 
@@ -82,7 +82,7 @@ namespace EDnevnik.Controllers
             {
                 return NotFound();
             }
-            ViewData["NastavnikId"] = new SelectList(_context.Nastavnik, "KorisnikId", "KorisnikId", predmet.NastavnikId);
+            ViewData["NastavnikId"] = new SelectList(_context.Nastavnik, "KorisnikId", "ImePrezime", predmet.NastavnikId);
             return View(predmet);
         }
 
@@ -118,7 +118,7 @@ namespace EDnevnik.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["NastavnikId"] = new SelectList(_context.Nastavnik, "KorisnikId", "KorisnikId", predmet.NastavnikId);
+            ViewData["NastavnikId"] = new SelectList(_context.Nastavnik, "KorisnikId", "ImePrezime", predmet.NastavnikId);
             return View(predmet);
         }
 

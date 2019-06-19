@@ -17,5 +17,10 @@ namespace EDnevnik.Models
             Username = username;
             Password = password;
         }
+
+        public Administrator()
+        {
+
+        }
     }
 }

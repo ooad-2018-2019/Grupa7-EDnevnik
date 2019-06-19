@@ -20,5 +20,10 @@ namespace EDnevnik.Models
         public int Broj { get; set; }
 
         public virtual Nastavnik Nastavnik { get; set; }
+
+        public Razred()
+        {
+
+        }
     }
 }

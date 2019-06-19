@@ -49,8 +49,8 @@ namespace EDnevnik.Controllers
         // GET: Ucenik/Create
         public IActionResult Create()
         {
-            ViewData["RazredId"] = new SelectList(_context.Razred, "RazredId", "RazredId");
-            ViewData["RoditeljId"] = new SelectList(_context.Roditelj, "KorisnikId", "KorisnikId");
+            ViewData["RazredId"] = new SelectList(_context.Razred, "RazredId", "Broj");
+            ViewData["RoditeljId"] = new SelectList(_context.Roditelj, "KorisnikId", "ImePrezime");
             return View();
         }
 
@@ -67,8 +67,8 @@ namespace EDnevnik.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["RazredId"] = new SelectList(_context.Razred, "RazredId", "RazredId", ucenik.RazredId);
-            ViewData["RoditeljId"] = new SelectList(_context.Roditelj, "KorisnikId", "KorisnikId", ucenik.RoditeljId);
+            ViewData["RazredId"] = new SelectList(_context.Razred, "RazredId", "Broj", ucenik.RazredId);
+            ViewData["RoditeljId"] = new SelectList(_context.Roditelj, "KorisnikId", "ImePrezime", ucenik.RoditeljId);
             return View(ucenik);
         }
 
@@ -85,8 +85,8 @@ namespace EDnevnik.Controllers
             {
                 return NotFound();
             }
-            ViewData["RazredId"] = new SelectList(_context.Razred, "RazredId", "RazredId", ucenik.RazredId);
-            ViewData["RoditeljId"] = new SelectList(_context.Roditelj, "KorisnikId", "KorisnikId", ucenik.RoditeljId);
+            ViewData["RazredId"] = new SelectList(_context.Razred, "RazredId", "Broj", ucenik.RazredId);
+            ViewData["RoditeljId"] = new SelectList(_context.Roditelj, "KorisnikId", "ImePrezime", ucenik.RoditeljId);
             return View(ucenik);
         }
 
@@ -122,8 +122,8 @@ namespace EDnevnik.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["RazredId"] = new SelectList(_context.Razred, "RazredId", "RazredId", ucenik.RazredId);
-            ViewData["RoditeljId"] = new SelectList(_context.Roditelj, "KorisnikId", "KorisnikId", ucenik.RoditeljId);
+            ViewData["RazredId"] = new SelectList(_context.Razred, "RazredId", "Broj", ucenik.RazredId);
+            ViewData["RoditeljId"] = new SelectList(_context.Roditelj, "KorisnikId", "ImePrezime", ucenik.RoditeljId);
             return View(ucenik);
         }
 

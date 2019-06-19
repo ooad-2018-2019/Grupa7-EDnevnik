@@ -49,8 +49,8 @@ namespace EDnevnik.Controllers
         // GET: Ocjena/Create
         public IActionResult Create()
         {
-            ViewData["PredmetId"] = new SelectList(_context.Predmet, "PredmetId", "PredmetId");
-            ViewData["UcenikId"] = new SelectList(_context.Ucenik, "KorisnikId", "KorisnikId");
+            ViewData["PredmetId"] = new SelectList(_context.Predmet, "PredmetId", "Naziv");
+            ViewData["UcenikId"] = new SelectList(_context.Ucenik, "KorisnikId", "ImePrezime");
             return View();
         }
 
@@ -67,8 +67,8 @@ namespace EDnevnik.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["PredmetId"] = new SelectList(_context.Predmet, "PredmetId", "PredmetId", ocjena.PredmetId);
-            ViewData["UcenikId"] = new SelectList(_context.Ucenik, "KorisnikId", "KorisnikId", ocjena.UcenikId);
+            ViewData["PredmetId"] = new SelectList(_context.Predmet, "PredmetId", "Naziv", ocjena.PredmetId);
+            ViewData["UcenikId"] = new SelectList(_context.Ucenik, "KorisnikId", "ImePrezime", ocjena.UcenikId);
             return View(ocjena);
         }
 
@@ -85,8 +85,8 @@ namespace EDnevnik.Controllers
             {
                 return NotFound();
             }
-            ViewData["PredmetId"] = new SelectList(_context.Predmet, "PredmetId", "PredmetId", ocjena.PredmetId);
-            ViewData["UcenikId"] = new SelectList(_context.Ucenik, "KorisnikId", "KorisnikId", ocjena.UcenikId);
+            ViewData["PredmetId"] = new SelectList(_context.Predmet, "PredmetId", "Naziv", ocjena.PredmetId);
+            ViewData["UcenikId"] = new SelectList(_context.Ucenik, "KorisnikId", "ImePrezime", ocjena.UcenikId);
             return View(ocjena);
         }
 
@@ -122,8 +122,8 @@ namespace EDnevnik.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["PredmetId"] = new SelectList(_context.Predmet, "PredmetId", "PredmetId", ocjena.PredmetId);
-            ViewData["UcenikId"] = new SelectList(_context.Ucenik, "KorisnikId", "KorisnikId", ocjena.UcenikId);
+            ViewData["PredmetId"] = new SelectList(_context.Predmet, "PredmetId", "Naziv", ocjena.PredmetId);
+            ViewData["UcenikId"] = new SelectList(_context.Ucenik, "KorisnikId", "ImePrezime", ocjena.UcenikId);
             return View(ocjena);
         }
 

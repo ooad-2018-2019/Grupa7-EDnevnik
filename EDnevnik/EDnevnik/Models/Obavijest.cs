@@ -22,5 +22,10 @@ namespace EDnevnik.Models
             NastavnikId = nastavnik.KorisnikId;
             Nastavnik = nastavnik;
         }
+
+        public Obavijest()
+        {
+
+        }
     }
 }

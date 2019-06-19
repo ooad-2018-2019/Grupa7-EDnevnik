@@ -11,7 +11,11 @@ namespace EDnevnik.Models
 
         protected Nastavnik(int korisnikId, string ime, string prezime, string username, string password, DateTime datumRodjenja, string jMBG) : base(korisnikId, ime, prezime, username, password, datumRodjenja, jMBG)
         {
-            PravoPristupa = 2;
+        }
+
+        public Nastavnik()
+        {
+
         }
     }
 }

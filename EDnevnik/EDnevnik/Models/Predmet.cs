@@ -26,5 +26,7 @@ namespace EDnevnik.Models
         public int Godina { get; set; }
 
         public virtual Nastavnik Nastavnik { get; set; }
+
+        public Predmet() { }
     }
 }

@@ -11,7 +11,8 @@ namespace EDnevnik.Models
 
         protected Roditelj(int korisnikId, string ime, string prezime, string username, string password, DateTime datumRodjenja, string jMBG) : base(korisnikId, ime, prezime, username, password, datumRodjenja, jMBG)
         {
-            PravoPristupa = 1;
         }
+
+        public Roditelj() { }
     }
 }

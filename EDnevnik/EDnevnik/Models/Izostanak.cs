@@ -26,5 +26,10 @@ namespace EDnevnik.Models
             Ucenik = ucenik;
             Predmet = predmet;
         }
+
+        public Izostanak()
+        {
+
+        }
     }
 }

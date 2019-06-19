@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace EDnevnik.Migrations
 {
     [DbContext(typeof(EDnevnikContext))]
-    [Migration("20190618133659_Test")]
+    [Migration("20190619124237_Test")]
     partial class Test
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -194,16 +194,12 @@ namespace EDnevnik.Migrations
                 {
                     b.HasBaseType("EDnevnik.Models.Korisnik");
 
-                    b.ToTable("Nastavnik");
-
                     b.HasDiscriminator().HasValue("Nastavnik");
                 });
 
             modelBuilder.Entity("EDnevnik.Models.Roditelj", b =>
                 {
                     b.HasBaseType("EDnevnik.Models.Korisnik");
-
-                    b.ToTable("Roditelj");
 
                     b.HasDiscriminator().HasValue("Roditelj");
                 });
@@ -219,8 +215,6 @@ namespace EDnevnik.Migrations
                     b.HasIndex("RazredId");
 
                     b.HasIndex("RoditeljId");
-
-                    b.ToTable("Ucenik");
 
                     b.HasDiscriminator().HasValue("Ucenik");
                 });

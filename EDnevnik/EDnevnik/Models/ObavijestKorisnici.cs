@@ -22,5 +22,10 @@ namespace EDnevnik.Models
 
         public virtual Korisnik Korisnik { get; set; }
         public virtual Obavijest Obavijest { get; set; }
+
+        public ObavijestKorisnici()
+        {
+
+        }
     }
 }

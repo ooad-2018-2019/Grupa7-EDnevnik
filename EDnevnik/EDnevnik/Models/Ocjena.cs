@@ -27,6 +27,9 @@ namespace EDnevnik.Models
         public virtual Ucenik Ucenik { get; set; }
         public virtual Predmet Predmet { get; set; }
 
+        public Ocjena()
+        {
 
+        }
     }
 }

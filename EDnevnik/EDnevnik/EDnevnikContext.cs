@@ -9,7 +9,9 @@ namespace EDnevnik
 {
     public class EDnevnikContext:DbContext
     {
-        public EDnevnikContext(DbContextOptions<EDnevnikContext> options) : base(options) { }
+        public static EDnevnikContext instance;
+
+        public EDnevnikContext(DbContextOptions<EDnevnikContext> options) : base(options) { instance = this; }
 
         public DbSet<Ucenik> Ucenik { get; set; }
         public DbSet<Roditelj> Roditelj { get; set; }
@@ -24,10 +26,7 @@ namespace EDnevnik
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<Korisnik>().HasDiscriminator<String>("tip_korisnika");
-            modelBuilder.Entity<Ucenik>().ToTable("Ucenik");
-            modelBuilder.Entity<Roditelj>().ToTable("Roditelj");
-            modelBuilder.Entity<Nastavnik>().ToTable("Nastavnik");
+            modelBuilder.Entity<Korisnik>().ToTable("Korisnik").HasDiscriminator<String>("tip_korisnika");
             modelBuilder.Entity<Predmet>().ToTable("Predmet");
             modelBuilder.Entity<Razred>().ToTable("Razred");
             modelBuilder.Entity<Obavijest>().ToTable("Obavijest");
