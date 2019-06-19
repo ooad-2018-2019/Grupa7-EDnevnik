@@ -43,12 +43,26 @@
     .auto-style2{
         color:white;
     }
+    .Place{
+        border-style: solid;
+        border-width: 2px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .Kocka{
+        width:200px;
+        height: 200px;
+        background: purple;
+    }
+    table, th, td {
+    border: 1px solid black;
+    }
     </style>
 </head>
 <body>
     <div class="glavniDivHeadera">
         <div class="slikaDiv">
-            <img src="slike/default-user-image.png" alt="Smiley face" height="152" width="152">
+            <img src="../Slike/default-user-image.png" alt="Smiley face" height="154" width="152">
         </div>
         <div class="textHeaderDiv">
             <div>
@@ -73,34 +87,28 @@
  
     <div class="middleNavbar">
         <button>Notifikacije</button>
+        <button>Izostanci</button>
         <button>Ocjene</button>
-        <button>Predmet</button>
     </div>
  
     <div class="glavniDivBody">
         <div style="background: white; width:50%; margin-top: 30px; margin-bottom: 30px;">
-            <br>
-            <form id="idForme" method="post">
-                <input name="Checkbox1" type="checkbox">
-                <span class="auto-style1">Ucenik 1</span><br class="auto-style1">
-                <input name="Checkbox2" type="checkbox">
-                <span class="auto-style1">Ucenik 2</span><br class="auto-style1">
-                <input name="Checkbox2" type="checkbox">
-                <span class="auto-style1">Ucenik 2</span><br class="auto-style1">
-                <input name="Checkbox2" type="checkbox">
-                <span class="auto-style1">Ucenik 2</span><br class="auto-style1">
-                <input name="Checkbox2" type="checkbox">
-                <span class="auto-style1">Ucenik 2</span><br class="auto-style1">
-                <input name="Checkbox2" type="checkbox">
-                <span class="auto-style1">Ucenik 2</span><br class="auto-style1">
-                <input name="Checkbox2" type="checkbox">
-                <span class="auto-style1">Ucenik 2</span><br class="auto-style1">
-                <input name="Checkbox2" type="checkbox">
-                <span class="auto-style1">Ucenik 2</span><br class="auto-style1">
-                <input name="Checkbox2" type="checkbox">
-                <span class="auto-style1">Ucenik 2</span><br class="auto-style1">
-               
-            </form>
+            <div class="Place">
+                <table id="tabela" style="width:100%">
+                    <tr>
+                        <td>Naziv predmeta: </td>
+                        <td id="ubaciNazivPredmeta">Lorem </td>
+                    </tr>
+                    <tr>
+                        <td>Opis predmeta: </td>
+                        <td id="ubaciOpisPredmeta">Scelerisque dictum rhoncus dapibus curabitur egestas tellus erat, mollis ornare nisi interdum condimentum nullam facilisis enim, aliquam taciti fusce elit arcu posuere.</td>
+                    </tr>
+                    <tr>
+                        <td>Obavezna literatura: </td>
+                        <td id="ubaciObaveznuLiteraturu">Ullamcorper donec mi leo hendrerit senectus auctor bibendum, senectus blandit sociosqu inceptos odio luctus, scelerisque nulla dictum ad feugiat aliquam</td>
+                    </tr>
+                    </table>
+            </div>
         </div>
     </div>
 </body>

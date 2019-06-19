@@ -6,10 +6,10 @@
     <title>Nastavnik Notifikacije</title>
     <style typye = "text/css">
     html, body{
-		background: #001C47;
-		margin: 0;
-		padding: 0;
-	}
+        background: #001C47;
+        margin: 0;
+        padding: 0;
+    }
     .glavniDivHeadera{
         display:flex;
     }
@@ -29,7 +29,7 @@
     }
  
     .glavniDivBody{
-	    background:#55AA00;
+        background:#55AA00;
         display:flex;
         flex-direction: column;
         justify-content: center;
@@ -38,22 +38,36 @@
         margin-right:2%;
     }
     .auto-style1 {
-		color: #FFFFFF;
-	}
+        color: black;
+    }
+    .auto-style2{
+        color:white;
+    }
+    .Place{
+        border-style: solid;
+        border-width: 2px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .Kocka{
+        width:200px;
+        height: 200px;
+        background: purple;
+    }
     </style>
 </head>
 <body>
     <div class="glavniDivHeadera">
         <div class="slikaDiv">
-            <img src="slike/default-user-image.png" alt="Smiley face" height="152" width="152">
+            <img src="../Slike/default-user-image.png" alt="Smiley face" height="154" width="152">
         </div>
         <div class="textHeaderDiv">
             <div>
-                <h1 class="auto-style1">Dobrodošli!</h1>
+                <h1 class="auto-style2">Dobrodošli!</h1>
             </div>
             <div>
-                <p id="nazivPredmetaId" class="auto-style1">Naziv Predmeta</p>
-				<p class="auto-style1">
+                <p id="nazivPredmetaId" class="auto-style2">Naziv Predmeta</p>
+                <p class="auto-style1">
                 <select id="selectBar1" name="D1">
                     <option value="0">Izaberi razred:</option>
                     <option value="1">Test razred</option>
@@ -66,34 +80,42 @@
         <div>
             <button style="background: #ff9966"><label style="color:white">Odjavi se</label></button>
         </div>
-
     </div>
  
     <div class="middleNavbar">
+        <button>Notifikacije</button>
         <button>Izostanci</button>
-        <button>Ocjene</button>
         <button>Predmet</button>
     </div>
  
     <div class="glavniDivBody">
-        <div><br>
-			<form method="post">
-				<input name="Checkbox1" type="checkbox"> 
-				<span class="auto-style1">Svi učenici</span><br class="auto-style1">
-				<input name="Checkbox2" type="checkbox"> 
-				<span class="auto-style1">Svi roditelji</span></form>
-		</div>
-        <div>
-            <input type="text" name="inputBar1">
-        <br><br>
-        </div>
-        <div>
-            <textarea id="textArea1" rows="4" cols="50"> </textarea>
-        <br><br>
-        </div>
-        <div>
-            <button>Pošalji</button>
-        	<br><br>
+        <div style="background: white; width:50%; margin-top: 30px; margin-bottom: 30px;">
+            <br>
+            <div style="display:flex; justify-content: center; align-items: center;">
+                <select>
+                    <option value="1">Ucenik 1</option>
+                    <option value="2">Ucenik 2</option>
+                    <option value="3">Ucenik 3</option>
+                    <option value="4">Ucenik 4</option>
+                </select>
+            </div>
+            <br>
+            <div class="Place">
+                <table id="tabela" style="width:100%">
+                    <tr>
+                        <th>Datum</th>
+                        <th>Ocjena</th>
+                    </tr>
+                    <tr>
+                        <td>31-12-2099</td>
+                        <td>1</td>
+                    </tr>
+                    <tr>
+                        <td>31-12-2099</td>
+                        <td>1</td>
+                    </tr>
+                    </table>
+            </div>
         </div>
     </div>
 </body>
